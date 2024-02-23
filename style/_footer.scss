@@ -1,0 +1,87 @@
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40rem;
+  padding: 2rem;
+  border-radius: 3rem;
+  z-index: 999;
+
+  img {
+    height: 40rem;
+    border-radius: 3rem;
+    border: 2px solid;
+  }
+}
+
+// Contact me
+footer {
+  max-width: 120rem;
+  margin: 0 auto;
+  background-color: $primary-bg-dark;
+  border-radius: 5rem;
+  margin-top: 20rem;
+  padding: 5rem;
+  margin-bottom: 10rem;
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    input,
+    button {
+      width: 33rem;
+    }
+
+    input,
+    textarea,
+    button {
+      background-color: $primary-ligth;
+      margin: 1rem 0;
+      padding: 0.7rem;
+      border: none;
+      resize: none;
+      border-radius: 1rem;
+    }
+
+    ::placeholder,
+    button {
+      color: rgba(0, 0, 0, 0.355);
+    }
+
+    button {
+      color: black;
+      font-size: 2rem;
+      font-weight: bold;
+      background-color: $primary;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: $secondary;
+    }
+
+    .icons-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      img {
+        width: 60px;
+      }
+
+      a {
+        border-radius: 1.5rem;
+        padding: 2rem;
+        background-color: $primary;
+      }
+
+      a:hover {
+        background-color: $secondary;
+      }
+    }
+  }
+}

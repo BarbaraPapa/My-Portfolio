@@ -1,0 +1,75 @@
+
+%card-style {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 10rem;
+
+  .border-card {
+    border: 5px solid $primary-ligth;
+    border-radius: 6rem;
+    padding: 1rem;
+  }
+  .card {
+    background-color: $primary-dark;
+    border-radius: 5rem;
+    max-width: 120rem;
+    padding: 3rem;
+
+    h3 {
+      font-size: 2.2rem;
+      color: $secondary-ligth;
+    }
+  }
+
+  p {
+    margin-top: 1rem;
+    max-width: 50rem;
+    color: #ffffffb4;
+  }
+
+  .card-img {
+    width: 33%;
+    object-fit: cover;
+    border-radius: 5rem;
+    border: 5px solid $primary-ligth;
+    padding: 1rem;
+  }
+
+  .buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+
+    button {
+      margin: 2rem auto;
+      padding: 0.8rem;
+      background-color: $primary;
+      border: none;
+      border-radius: 5px;
+      width: 10rem;
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    }
+    button:hover {
+      background-color:$secondary;
+    }
+
+    .github-button {
+      display: flex;
+      justify-content: center;
+      a {
+        display: flex;
+        align-items: center;
+      }
+      .icon-button {
+        margin-right: 5px;
+        width: 25px;
+      }
+    }
+  }
+}
