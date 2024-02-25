@@ -67,8 +67,11 @@
 
 @media screen and (max-width: 760px) {
   .card-container .border-card {
-    max-width: 80%;
+    max-width: 98%;
     margin-bottom: 1rem;
+  }
+  .card-container .card {
+    padding: 2rem;
   }
 }
 .logo {
@@ -160,7 +163,7 @@
   transform: rotate(-405deg);
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 760px) {
   .menu-button-container {
     display: flex;
   }
@@ -174,6 +177,9 @@
     justify-content: center;
     align-items: center;
   }
+  .menu a {
+    font-size: 2.1rem;
+  }
   #menu-toggle ~ .menu li {
     height: 0;
     margin: 0;
@@ -182,8 +188,8 @@
     transition: height 500ms cubic-bezier(0.23, 1, 0.32, 1);
   }
   #menu-toggle:checked ~ .menu li {
-    border: 1px solid #5377CA;
-    height: 2.5em;
+    border: 1px solid rgba(204, 204, 204, 0.3960784314);
+    height: 3.3em;
     padding: 0.5em;
     transition: height 500ms cubic-bezier(0.23, 1, 0.32, 1);
   }
@@ -395,4 +401,10 @@ header section p {
 .skills img {
   margin-right: 0.5rem;
   width: 30px;
+}
+
+@media screen and (max-width: 760px) {
+  header section {
+    margin-top: 5rem;
+  }
 }/*# sourceMappingURL=main.css.map */

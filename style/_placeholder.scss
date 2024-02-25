@@ -79,8 +79,12 @@
 @media screen and (max-width: 760px) {    
   %card-style{
     .border-card {
-      max-width: 80%;
+      max-width: 98%;
       margin-bottom: 1rem;
+    }
+
+    .card{
+      padding: 2rem;
     }
   }
 }
