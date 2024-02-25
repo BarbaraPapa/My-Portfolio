@@ -65,6 +65,12 @@
   width: 25px;
 }
 
+@media screen and (max-width: 760px) {
+  .card-container .border-card {
+    max-width: 80%;
+    margin-bottom: 1rem;
+  }
+}
 .logo {
   font-size: 3rem;
   font-weight: bolder;
@@ -280,6 +286,14 @@ footer form .icons-container a:hover {
   background-color: #5377CA;
 }
 
+@media screen and (max-width: 760px) {
+  footer form .icons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 3rem;
+  }
+}
 .about {
   background-color: #021716;
   border-radius: 5rem;

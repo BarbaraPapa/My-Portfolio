@@ -85,3 +85,18 @@ footer {
     }
   }
 }
+
+//------- Mobile ----------
+
+@media screen and (max-width: 760px) {
+  footer {
+    form {
+      .icons-container {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        margin-top: 3rem;
+      }
+    }
+  }
+}

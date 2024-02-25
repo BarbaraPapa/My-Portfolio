@@ -28,7 +28,6 @@
   }
 
   .card-img {
-    //width: 33%;
     max-width: 300px;
     object-fit: cover;
     border-radius: 5rem;
@@ -70,6 +69,18 @@
         margin-right: 5px;
         width: 25px;
       }
+    }
+  }
+}
+
+
+//---------- Mobile ----------
+
+@media screen and (max-width: 760px) {    
+  %card-style{
+    .border-card {
+      max-width: 80%;
+      margin-bottom: 1rem;
     }
   }
 }
