@@ -37,3 +37,13 @@
     background-color:$secondary;
   }
 }
+
+
+//----- Mobile -----
+
+@media screen and (max-width: 760px){
+  .CV{
+    padding: 2.5rem;
+    gap: 1rem;
+  }
+}
