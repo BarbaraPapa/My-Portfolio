@@ -40,7 +40,7 @@
   padding: 0.8rem;
   background-color: #11b7af;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 10rem;
 }
 .card-container .buttons-container button a {
@@ -101,7 +101,7 @@
   list-style-type: none;
 }
 .menu li {
-  margin: 0 1rem;
+  margin: 0 1.8rem;
   overflow: hidden;
 }
 .menu a {
@@ -248,15 +248,15 @@ footer form {
   justify-content: space-around;
 }
 footer form input,
-footer form button {
-  width: 33rem;
+footer form button, footer form textarea {
+  width: 35rem;
 }
 footer form input,
 footer form textarea,
 footer form button {
   background-color: #b2efec;
   margin: 1rem 0;
-  padding: 0.7rem;
+  padding: 1.2rem;
   border: none;
   resize: none;
   border-radius: 1rem;
@@ -265,10 +265,14 @@ footer form ::placeholder,
 footer form button {
   color: rgba(0, 0, 0, 0.355);
 }
+footer form ::placeholder {
+  font-size: 1.7rem;
+}
 footer form button {
   color: black;
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: bold;
+  padding: 1rem;
   background-color: #11b7af;
   cursor: pointer;
 }
@@ -309,6 +313,42 @@ footer form .icons-container a:hover {
   margin-top: 20rem;
 }
 
+.CV {
+  background-color: #021716;
+  border-radius: 5rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5rem;
+  margin-bottom: 20rem;
+}
+.CV a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+.CV button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.1rem;
+  border-radius: 2.2rem;
+  cursor: pointer;
+  background-color: #11b7af;
+  border: none;
+}
+.CV button img {
+  width: 50px;
+  margin-right: 0.5rem;
+}
+.CV button:hover {
+  background-color: #5377CA;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -327,7 +367,7 @@ html {
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.6rem;
-  background: linear-gradient(to bottom right, #043c39 40%, #11b7af 10%, #043c39);
+  background: linear-gradient(to bottom right, #043c39 38%, #11b7af 10%, #043c39);
 }
 body h1,
 body h2 {
@@ -356,7 +396,7 @@ header {
   border-radius: 5rem;
   margin: 0 auto;
   margin-top: 20rem;
-  margin-bottom: 20rem;
+  margin-bottom: 5rem;
   max-width: 120rem;
   padding: 5rem 4rem;
 }
