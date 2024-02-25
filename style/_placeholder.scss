@@ -1,19 +1,19 @@
 
 %card-style {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  column-gap: 10rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 5rem;
 
   .border-card {
-    border: 5px solid $primary-ligth;
+    border: 2px solid $primary-ligth;
     border-radius: 6rem;
-    padding: 1rem;
+    padding: 0.6rem;
+    max-width: 60%;
   }
   .card {
     background-color: $primary-dark;
     border-radius: 5rem;
-    max-width: 120rem;
     padding: 3rem;
 
     h3 {
@@ -24,16 +24,16 @@
 
   p {
     margin-top: 1rem;
-    max-width: 50rem;
     color: #ffffffb4;
   }
 
   .card-img {
-    width: 33%;
+    //width: 33%;
+    max-width: 300px;
     object-fit: cover;
     border-radius: 5rem;
-    border: 5px solid $primary-ligth;
-    padding: 1rem;
+    border: 2px solid $primary-ligth;
+    padding: 0.6rem;
   }
 
   .buttons-container {

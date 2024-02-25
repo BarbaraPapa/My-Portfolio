@@ -1,66 +1,41 @@
-.card-1-container,
-.card-2-container,
-.card-3-container,
-.card-4-container {
+.card-container {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  column-gap: 10rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 5rem;
 }
-.card-1-container .border-card,
-.card-2-container .border-card,
-.card-3-container .border-card,
-.card-4-container .border-card {
-  border: 5px solid #b2efec;
+.card-container .border-card {
+  border: 2px solid #b2efec;
   border-radius: 6rem;
-  padding: 1rem;
+  padding: 0.6rem;
+  max-width: 60%;
 }
-.card-1-container .card,
-.card-2-container .card,
-.card-3-container .card,
-.card-4-container .card {
+.card-container .card {
   background-color: #043c39;
   border-radius: 5rem;
-  max-width: 120rem;
   padding: 3rem;
 }
-.card-1-container .card h3,
-.card-2-container .card h3,
-.card-3-container .card h3,
-.card-4-container .card h3 {
+.card-container .card h3 {
   font-size: 2.2rem;
   color: #92c4f6;
 }
-.card-1-container p,
-.card-2-container p,
-.card-3-container p,
-.card-4-container p {
+.card-container p {
   margin-top: 1rem;
-  max-width: 50rem;
   color: rgba(255, 255, 255, 0.7058823529);
 }
-.card-1-container .card-img,
-.card-2-container .card-img,
-.card-3-container .card-img,
-.card-4-container .card-img {
-  width: 33%;
+.card-container .card-img {
+  max-width: 300px;
   object-fit: cover;
   border-radius: 5rem;
-  border: 5px solid #b2efec;
-  padding: 1rem;
+  border: 2px solid #b2efec;
+  padding: 0.6rem;
 }
-.card-1-container .buttons-container,
-.card-2-container .buttons-container,
-.card-3-container .buttons-container,
-.card-4-container .buttons-container {
+.card-container .buttons-container {
   display: flex;
   flex-wrap: wrap;
   margin-top: 2.5rem;
 }
-.card-1-container .buttons-container button,
-.card-2-container .buttons-container button,
-.card-3-container .buttons-container button,
-.card-4-container .buttons-container button {
+.card-container .buttons-container button {
   margin: 2rem auto;
   padding: 0.8rem;
   background-color: #11b7af;
@@ -68,39 +43,24 @@
   border-radius: 5px;
   width: 10rem;
 }
-.card-1-container .buttons-container button a,
-.card-2-container .buttons-container button a,
-.card-3-container .buttons-container button a,
-.card-4-container .buttons-container button a {
+.card-container .buttons-container button a {
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
   font-weight: bold;
 }
-.card-1-container .buttons-container button:hover,
-.card-2-container .buttons-container button:hover,
-.card-3-container .buttons-container button:hover,
-.card-4-container .buttons-container button:hover {
+.card-container .buttons-container button:hover {
   background-color: #5377CA;
 }
-.card-1-container .buttons-container .github-button,
-.card-2-container .buttons-container .github-button,
-.card-3-container .buttons-container .github-button,
-.card-4-container .buttons-container .github-button {
+.card-container .buttons-container .github-button {
   display: flex;
   justify-content: center;
 }
-.card-1-container .buttons-container .github-button a,
-.card-2-container .buttons-container .github-button a,
-.card-3-container .buttons-container .github-button a,
-.card-4-container .buttons-container .github-button a {
+.card-container .buttons-container .github-button a {
   display: flex;
   align-items: center;
 }
-.card-1-container .buttons-container .github-button .icon-button,
-.card-2-container .buttons-container .github-button .icon-button,
-.card-3-container .buttons-container .github-button .icon-button,
-.card-4-container .buttons-container .github-button .icon-button {
+.card-container .buttons-container .github-button .icon-button {
   margin-right: 5px;
   width: 25px;
 }
@@ -320,6 +280,15 @@ footer form .icons-container a:hover {
   background-color: #5377CA;
 }
 
+.about {
+  background-color: #021716;
+  border-radius: 5rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 5rem;
+  margin-top: 20rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -354,6 +323,9 @@ body span,
 body p,
 body h3 {
   color: rgba(240, 240, 240, 0.8901960784);
+}
+body h4 {
+  color: #f0f0f0;
 }
 
 header {

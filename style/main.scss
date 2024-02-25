@@ -5,6 +5,7 @@
 @import "navigation";
 @import "cards";
 @import "footer";
+@import "about";
 
 * {
   box-sizing: border-box;
@@ -48,6 +49,10 @@ body {
   p,
   h3 {
     color: $ligth;
+  }
+
+  h4{
+    color:#f0f0f0;
   }
 }
 

@@ -12,9 +12,7 @@
   padding: 5rem;
 }
 
-.card-1-container,
-.card-2-container,
-.card-3-container,
-.card-4-container {
+
+.card-container {
   @extend %card-style;
 }
