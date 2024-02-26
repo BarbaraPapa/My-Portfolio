@@ -19,12 +19,14 @@
   .container-top {
     //border: 2px solid blue;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 5rem;
 
     // top left
     .dev-skills-left {
       display: flex;
+      flex-wrap: wrap;
       gap: 5rem;
 
       .left,
@@ -62,30 +64,41 @@
     }
   }
 
-  .soft-skills, .learning {
+  .soft-skills,
+  .learning {
     border: 2px solid $secondary;
     border-radius: 3.5rem;
     padding: 2rem;
-    margin-top: 5rem;
-
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-
     width: 80%;
-    margin:  5rem  auto ;
+    margin: 5rem auto;
 
     div {
-        padding: 1rem;
-        display: flex;
-        align-items: center;
-      }
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+    }
   }
 
   .learning {
     border: 2px solid yellowgreen;
-    h3{
-        font-size: 3rem;
-        color: $secondary;
+    h3 {
+      font-size: 3rem;
+      color: $secondary;
+    }
+  }
+}
+
+
+
+// ---- Mobile ------
+
+@media screen and (max-width: 760px) {
+  .container-top {
+    .dev-skills-left {
+      justify-content: center;
     }
   }
 }
