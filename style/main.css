@@ -216,94 +216,19 @@
   padding: 5rem;
 }
 
-.popup {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 40rem;
-  padding: 2rem;
-  border-radius: 3rem;
-  z-index: 999;
-}
-.popup img {
-  height: 40rem;
-  border-radius: 3rem;
-  border: 2px solid;
-}
-
 footer {
-  max-width: 120rem;
-  margin: 0 auto;
   background-color: #021716;
-  border-radius: 5rem;
-  margin-top: 20rem;
-  padding: 5rem;
-  margin-bottom: 10rem;
+  padding: 1.5rem;
 }
-footer form {
+footer div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
-footer form input,
-footer form button, footer form textarea {
-  width: 35rem;
-}
-footer form input,
-footer form textarea,
-footer form button {
-  background-color: #b2efec;
-  margin: 1rem 0;
-  padding: 1.2rem;
-  border: none;
-  resize: none;
-  border-radius: 1rem;
-}
-footer form ::placeholder,
-footer form button {
-  color: rgba(0, 0, 0, 0.355);
-}
-footer form ::placeholder {
-  font-size: 1.7rem;
-}
-footer form button {
-  color: black;
-  font-size: 2.4rem;
-  font-weight: bold;
-  padding: 1rem;
-  background-color: #11b7af;
-  cursor: pointer;
-}
-footer form button:hover {
-  background-color: #ff4d00;
-}
-footer form .icons-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-footer form .icons-container img {
-  width: 60px;
-}
-footer form .icons-container a {
-  border-radius: 1.5rem;
-  padding: 2rem;
-  background-color: #11b7af;
-}
-footer form .icons-container a:hover {
-  background-color: #ff4d00;
+footer div p {
+  color: rgba(240, 240, 240, 0.6784313725);
+  margin-right: 2rem;
 }
 
-@media screen and (max-width: 760px) {
-  footer form .icons-container {
-    display: flex;
-    flex-direction: row;
-    gap: 5rem;
-    margin-top: 3rem;
-  }
-}
 .about {
   background-color: #021716;
   border-radius: 5rem;
@@ -480,6 +405,94 @@ footer form .icons-container a:hover {
 @media screen and (max-width: 760px) {
   .container-top .dev-skills-left {
     justify-content: center;
+  }
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40rem;
+  padding: 2rem;
+  border-radius: 3rem;
+  z-index: 999;
+}
+.popup img {
+  height: 40rem;
+  border-radius: 3rem;
+  border: 2px solid;
+}
+
+.contacts {
+  max-width: 120rem;
+  margin: 0 auto;
+  background-color: #021716;
+  border-radius: 5rem;
+  margin-top: 20rem;
+  padding: 5rem;
+  margin-bottom: 10rem;
+}
+.contacts form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contacts form input,
+.contacts form button, .contacts form textarea {
+  width: 35rem;
+}
+.contacts form input,
+.contacts form textarea,
+.contacts form button {
+  background-color: #b2efec;
+  margin: 1rem 0;
+  padding: 1.2rem;
+  border: none;
+  resize: none;
+  border-radius: 1rem;
+}
+.contacts form ::placeholder,
+.contacts form button {
+  color: rgba(0, 0, 0, 0.355);
+}
+.contacts form ::placeholder {
+  font-size: 1.7rem;
+}
+.contacts form button {
+  color: black;
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: #11b7af;
+  cursor: pointer;
+}
+.contacts form button:hover {
+  background-color: #ff4d00;
+}
+.contacts form .icons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contacts form .icons-container img {
+  width: 60px;
+}
+.contacts form .icons-container a {
+  border-radius: 1.5rem;
+  padding: 2rem;
+  background-color: #11b7af;
+}
+.contacts form .icons-container a:hover {
+  background-color: #ff4d00;
+}
+
+@media screen and (max-width: 760px) {
+  .contacts form .icons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 3rem;
   }
 }
 * {

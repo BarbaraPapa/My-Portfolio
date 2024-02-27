@@ -1,92 +1,14 @@
-.popup {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 40rem;
-  padding: 2rem;
-  border-radius: 3rem;
-  z-index: 999;
-
-  img {
-    height: 40rem;
-    border-radius: 3rem;
-    border: 2px solid;
-  }
-}
-
-// Contact me
-footer {
-  max-width: 120rem;
-  margin: 0 auto;
+footer{
   background-color: $primary-bg-dark;
-  border-radius: 5rem;
-  margin-top: 20rem;
-  padding: 5rem;
-  margin-bottom: 10rem;
-
-  form {
+  padding: 1.5rem;
+  div{
+    
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-
-    input,
-    button, textarea {
-      width: 35rem;
-    }
-
-    input,
-    textarea,
-    button {
-      background-color: $primary-ligth;
-      margin: 1rem 0;
-      padding: 1.2rem;
-      border: none;
-      resize: none;
-      border-radius: 1rem;
-    }
-
-    ::placeholder,
-    button {
-      color: rgba(0, 0, 0, 0.355);
-    }
-
-    ::placeholder{
-      font-size: 1.7rem;
-    }
-
-    button {
-      color: black;
-      font-size: 2.4rem;
-      font-weight: bold;
-      padding: 1rem;
-      background-color: $primary;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: $secondary;
-    }
-
-    .icons-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-
-      img {
-        width: 60px;
-      }
-
-      a {
-        border-radius: 1.5rem;
-        padding: 2rem;
-        background-color: $primary;
-      }
-
-      a:hover {
-        background-color: $secondary;
-      }
+    
+    p{
+      color: #f0f0f0ad;
+      margin-right: 2rem;
     }
   }
 }
@@ -94,14 +16,5 @@ footer {
 //------- Mobile ----------
 
 @media screen and (max-width: 760px) {
-  footer {
-    form {
-      .icons-container {
-        display: flex;
-        flex-direction: row;
-        gap: 5rem;
-        margin-top: 3rem;
-      }
-    }
-  }
+  
 }
