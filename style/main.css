@@ -327,6 +327,18 @@ footer form .icons-container a:hover {
   max-width: 60ch;
 }
 
+@media screen and (max-width: 760px) {
+  .about {
+    padding: 2rem;
+  }
+  .about main {
+    flex-direction: column;
+  }
+  .about main img {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+}
 .CV {
   background-color: #021716;
   border-radius: 5rem;
@@ -540,7 +552,11 @@ header section p {
 }
 
 @media screen and (max-width: 760px) {
+  header {
+    margin-top: 13rem;
+    padding: 4rem 3rem;
+  }
   header section {
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 }/*# sourceMappingURL=main.css.map */
