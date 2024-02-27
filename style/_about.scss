@@ -1,14 +1,23 @@
-.about{
-    background-color: $primary-bg-dark;
-    border-radius: 5rem;
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: 5rem;
-    margin-top: 20rem;
+.about {
+  background-color: $primary-bg-dark;
+  border-radius: 5rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 5rem;
+  margin-top: 20rem;
 
-    p{
-    margin: 0 auto;
-     padding: 1rem 2rem;
-     max-width: 60ch;
+  main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    img {
+      width: 30%;
+      border-radius: 3rem;
     }
+    p {
+      margin: 0 auto;
+      padding: 1rem 2rem;
+      max-width: 60ch;
+    }
+  }
 }
