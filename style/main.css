@@ -511,7 +511,7 @@ html {
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.6rem;
-  background: linear-gradient(to bottom right, #043c39 38%, #11b7af 10%, #043c39);
+  background: linear-gradient(to bottom right, #043c39 38%, #11b7af 38.05%, #043c39);
 }
 body h1,
 body h2 {

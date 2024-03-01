@@ -28,11 +28,11 @@ html {
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.6rem;
-  //background-color: $primary-dark;
+  //background:linear-gradient(to bottom right, #043c39 38%, #11b7af 38.05%, #043c39) (Blur consejo)
   background: linear-gradient(
     to bottom right,
     $primary-dark 38%,
-    $primary 10%,
+    $primary 38.05%,
     $primary-dark
   );
 
