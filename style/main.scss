@@ -2,13 +2,12 @@
 @import "variables";
 @import "placeholder";
 @import "navigation";
+@import "header";
 @import "cards";
 @import "footer";
 @import "about";
-@import "cv";
 @import "work";
 @import "skills";
-@import "contacts";
 
 * {
   box-sizing: border-box;
@@ -23,16 +22,18 @@
 
 html {
   scroll-behavior: smooth;
+  line-height: 1.4;
 }
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.6rem;
-  //background:linear-gradient(to bottom right, #043c39 38%, #11b7af 38.05%, #043c39) (Blur consejo)
+  // 38%, 38.05%) (Blur tip)
+  // to avoid close teeth,  you have to put a number very close so that it makes a small blur, by putting some decimals the lines look super clean
   background: linear-gradient(
     to bottom right,
     $primary-dark 38%,
-    $primary 38.05%,
+    $primary 38.05%,   
     $primary-dark
   );
 
@@ -59,55 +60,54 @@ body {
   }
 }
 
-// ----   Header    ------
-
-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: $primary-bg-dark;
-  border-radius: 5rem;
-  margin: 0 auto;
-  margin-top: 20rem;
-  margin-bottom: 5rem;
-  max-width: 120rem;
-  padding: 5rem 4rem;
-
-  .header-title {
-    span {
-      font-size: 6rem;
-    }
-
-    h1 {
-      font-size: 8rem;
-    }
-
-    h2 {
-      font-size: 4rem;
-      padding-top: 1rem;
-    }
-  }
-
-  section {
-    max-width: 50rem;
-    margin-top: 15rem;
-
-    p {
-      margin-top: 1rem;
-    }
-  }
-}
 
 
-// ------ Mobile -------
+// header {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+//   background-color: $primary-bg-dark;
+//   border-radius: 5rem;
+//   margin: 0 auto;
+//   margin-top: 20rem;
+//   margin-bottom: 5rem;
+//   max-width: 120rem;
+//   padding: 5rem 4rem;
 
-@media screen and (max-width: 760px){
-  header{
-    margin-top: 13rem;
-    padding: 4rem 3rem;
-    section{
-      margin-top: 2rem;
-    }
-  }
-}
+//   .header-title {
+//     span {
+//       font-size: 6rem;
+//     }
+
+//     h1 {
+//       font-size: 8rem;
+//     }
+
+//     h2 {
+//       font-size: 4rem;
+//       padding-top: 1rem;
+//     }
+//   }
+
+//   section {
+//     max-width: 50rem;
+  
+//     p {
+//       margin-top: 1rem;
+//     }
+//   }
+// }
+
+
+// // ------ Mobile -------
+
+// @media screen and (max-width: 760px){
+//   header{
+//     margin-top: 13rem;
+//     padding: 4rem 3rem;
+//     section{
+//       margin-top: 2rem;
+//     }
+//   }
+// }
 

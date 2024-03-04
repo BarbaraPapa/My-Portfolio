@@ -29,56 +29,60 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
     <!-- header -->
     <header>
-      <div class="header-title">
-        <h1><span> Hi, I'm </span>Barbara</h1>
-        <h2>Full-Stack</h2>
-        <h2>Web Developer</h2>
-      </div>
-      <section>
-        <p>
-          I create responsive websites, easy to use and built with best
-          practices.
-        </p>
-        <p>
-          What I enjoy most about being a web developer is the ability to design
-          and create things that have purpose and solve real problems.
-        </p>
-      </section>
-    </header>
+      <div class="top-container">
+        <div>
+          <section class="header-title">
+            <h1><span> Hi, I'm </span>Barbara</h1>
+            <h2>Full-Stack Web Developer</h2>
+          </section>
 
-    <!-- CV e contatti  -->
-    <section class="CV">
-      <a
-        href="https://jade-sharia-93.tiiny.site"
-        target="_blank"
-      >
-        <button>
-          <img src="icons/resume.png" alt="resume logo" />
-          Resume
-        </button>
-      </a>
-      <a
-        href="https://www.linkedin.com/in/barbara-papa-30980a106/"
-        target="_blank"
-      >
-        <button>
-          <img src="icons/linkedin.png" alt="Linkedin logo" />
-          Linkedin
-        </button>
-      </a>
-      <a href="https://github.com/BarbaraPapa" target="_blank">
-        <button>
-          <img src="icons/github-2.png" alt="GitHub logo" />
-          GitHub
-        </button>
-      </a>
-    </section>
+          <section class="paragraph">
+            <p>
+              I create responsive websites, easy to use and built with best
+              practices.
+            </p>
+            <p>
+              What I enjoy most about being a web developer is the ability to
+              design and create things that have purpose and solve real
+              problems.
+            </p>
+          </section>
+
+          <!-- contacts  -->
+          <section class="contacts">
+            <a
+              href="https://www.linkedin.com/in/barbara-papa-30980a106/"
+              target="_blank"
+            >
+              <button>
+                <img src="icons/linkedin.png" alt="Linkedin logo" />
+                Linkedin
+              </button>
+            </a>
+            <a href="https://github.com/BarbaraPapa" target="_blank">
+              <button>
+                <img src="icons/github-2.png" alt="GitHub logo" />
+                GitHub
+              </button>
+            </a>
+            <a href="https://jade-sharia-93.tiiny.site" target="_blank">
+              <button>
+                <img src="icons/resume.png" alt="resume logo" />
+                Resume
+              </button>
+            </a>
+          </section>
+        </div>
+
+        <img src="./images/barbara-mod.png" alt="Barbara's image profile"/>
+
+      </div>
+    </header>
 
     <!--cards  projects -->
     <div class="cards-container">
@@ -98,7 +102,9 @@
               the server. The entire process of creating the project was done
               using the <span>Agile methodology</span>.
             </p>
-            <p>Yuo can try the app for free using: barbara@gmail.com pw:123456</p>
+            <p>
+              Yuo can try the app for free using: barbara@gmail.com pw:123456
+            </p>
             <div class="buttons-container">
               <button class="online-button">
                 <a
@@ -127,7 +133,7 @@
         <img
           class="card-img"
           src="./images/expensify3.png"
-          alt="image of the project"
+          alt="image of the Expensify project"
         />
       </section>
 
@@ -140,15 +146,18 @@
             <p>
               It was created in a couple of days in collaboration with a team.
               Once the project was finished I then decided to take it back on my
-              own and improve the style with <span>CSS</span> and add new features using <span>React</span>
-               and <span>Node.js</span>.
+              own and improve the style with <span>CSS</span> and add new
+              features using <span>React</span> and <span>Node.js</span>.
             </p>
             <div class="buttons-container">
               <!-- <button class="online-button">
                 <a href="#" target="_blank"> Website </a>
               </button> -->
               <button class="github-button">
-                <a href="https://github.com/BarbaraPapa/Deliverando-Project" target="_blank">
+                <a
+                  href="https://github.com/BarbaraPapa/Deliverando-Project"
+                  target="_blank"
+                >
                   <img
                     class="icon-button"
                     src="icons/github-2.png"
@@ -209,7 +218,7 @@
         <img
           class="card-img"
           src="./images/dog-school.png"
-          alt="image of the project"
+          alt="image of the Dog School project"
         />
       </section>
     </div>
@@ -349,7 +358,7 @@
 
       <section class="learning">
         <div>
-          <h3>Learning :</h3>
+          <h3>Learning</h3>
         </div>
         <div>
           <img src="./icons/typescript.png" alt="logo typescript" /><span
@@ -368,7 +377,7 @@
     </section>
 
     <!-- contact -->
-    <section class="contacts">
+    <!-- <section class="contacts">
       <h2 class="sub-title" id="contact">Contact me</h2>
       <form id="contact-form">
         <section>
@@ -416,7 +425,7 @@
           /></a>
         </section>
       </form>
-    </section>
+    </section> -->
 
     <footer>
       <div>
@@ -427,7 +436,7 @@
     </footer>
 
     <!-- EmailJS  -->
-    <script
+    <!-- <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
     ></script>
@@ -467,14 +476,14 @@
             }
           );
         });
-    </script>
+    </script> -->
 
     <!-- PopUp message -->
-    <div id="success-popup" class="popup">
+    <!-- <div id="success-popup" class="popup">
       <img
         src="images/popup.png"
         alt="popup representing a postman delivering a letter "
       />
-    </div>
+    </div> -->
   </body>
 </html>
