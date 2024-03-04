@@ -5,19 +5,18 @@
   column-gap: 5rem;
 }
 .card-container .border-card {
-  border: 2px solid rgba(255, 77, 0, 0.4431372549);
-  border-radius: 6rem;
+  border-radius: 1rem;
   padding: 0.6rem;
   max-width: 60%;
 }
 .card-container .card {
   background-color: #043c39;
-  border-radius: 5rem;
+  border-radius: 0.5rem;
   padding: 3rem;
 }
 .card-container .card h3 {
   font-size: 2.2rem;
-  color: rgba(255, 77, 0, 0.9450980392);
+  color: #11b7af;
 }
 .card-container .card p {
   margin-top: 1rem;
@@ -29,8 +28,7 @@
 .card-container .card-img {
   max-width: 300px;
   object-fit: cover;
-  border-radius: 5rem;
-  border: 2px solid rgba(255, 77, 0, 0.4431372549);
+  border-radius: 1rem;
   padding: 0.6rem;
 }
 .card-container .buttons-container {
@@ -43,7 +41,7 @@
   padding: 0.8rem;
   background-color: #11b7af;
   border: none;
-  border-radius: 10px;
+  border-radius: 0.5rem;
   width: 10rem;
 }
 .card-container .buttons-container button a {
@@ -53,7 +51,7 @@
   font-weight: bold;
 }
 .card-container .buttons-container button:hover {
-  background-color: rgba(255, 77, 0, 0.9450980392);
+  background-color: rgba(240, 240, 240, 0.8901960784);
 }
 .card-container .buttons-container .github-button {
   display: flex;
@@ -113,7 +111,7 @@
   font-weight: bold;
 }
 .menu a:hover {
-  color: rgba(255, 77, 0, 0.9450980392);
+  color: #b2efec;
 }
 
 .menu-button-container {
@@ -210,7 +208,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #021716;
-  border-radius: 5rem;
+  border-radius: 1rem;
   margin: 0 auto;
   margin-top: 20rem;
   margin-bottom: 20rem;
@@ -225,7 +223,7 @@ header .top-container {
 header .top-container img {
   width: 350px;
   object-fit: cover;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
 }
 header .top-container .header-title span {
   font-size: 6rem;
@@ -260,7 +258,7 @@ header .contacts button {
   font-size: 1.5rem;
   font-weight: bold;
   padding: 1rem;
-  border-radius: 1.2rem;
+  border-radius: 0.5rem;
   cursor: pointer;
   background-color: #11b7af;
   border: none;
@@ -271,7 +269,7 @@ header .contacts button img {
   margin-right: 0.5rem;
 }
 header .contacts button:hover {
-  background-color: rgba(255, 77, 0, 0.9450980392);
+  background-color: rgba(240, 240, 240, 0.8901960784);
 }
 
 @media screen and (max-width: 760px) {
@@ -292,7 +290,7 @@ header .contacts button:hover {
 }
 .cards-container {
   background-color: #021716;
-  border-radius: 5rem;
+  border-radius: 1rem;
   max-width: 120rem;
   margin: 0 auto;
   display: flex;
@@ -306,11 +304,12 @@ header .contacts button:hover {
 
 footer {
   background-color: #021716;
-  padding: 1.5rem;
+  padding: 3rem;
 }
 footer div {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 footer div p {
   color: rgba(240, 240, 240, 0.6784313725);
@@ -319,7 +318,7 @@ footer div p {
 
 .about {
   background-color: #021716;
-  border-radius: 5rem;
+  border-radius: 1rem;
   max-width: 120rem;
   margin: 0 auto;
   padding: 5rem;
@@ -331,8 +330,8 @@ footer div p {
   align-items: center;
 }
 .about main img {
-  width: 30%;
-  border-radius: 3rem;
+  width: 27%;
+  border-radius: 0.5rem;
 }
 .about main p {
   margin: 0 auto;
@@ -354,19 +353,19 @@ footer div p {
 }
 .work {
   background-color: #021716;
-  border-radius: 5rem;
+  border-radius: 1rem;
   max-width: 120rem;
   margin: 0 auto;
   padding: 5rem;
   margin-top: 20rem;
 }
 .work div {
-  border-left: 2px solid greenyellow;
+  border-left: 2px solid #11b7af;
   margin-top: 5rem;
   padding-left: 2rem;
 }
 .work div h3 {
-  color: rgba(255, 77, 0, 0.9450980392);
+  color: #11b7af;
   margin-bottom: 1rem;
 }
 .work div h4 {
@@ -392,7 +391,7 @@ footer div p {
   margin: 0 auto;
   text-align: center;
   background-color: #021716;
-  border-radius: 5rem;
+  border-radius: 1rem;
   margin-top: 20rem;
   margin-bottom: 20rem;
   padding: 5rem;
@@ -418,8 +417,8 @@ footer div p {
 }
 .skills .container-top .dev-skills-left .left,
 .skills .container-top .dev-skills-left .right {
-  border: 3px solid rgba(255, 77, 0, 0.9450980392);
-  border-radius: 4rem;
+  border: 3px solid #11b7af;
+  border-radius: 0.5rem;
   padding: 2rem;
 }
 .skills .container-top .dev-skills-left .left div,
@@ -435,8 +434,8 @@ footer div p {
 }
 .skills .container-top .dev-skills-right .top,
 .skills .container-top .dev-skills-right .bottom {
-  border: 3px solid rgba(255, 77, 0, 0.9450980392);
-  border-radius: 4rem;
+  border: 3px solid #11b7af;
+  border-radius: 0.5rem;
   padding: 2rem;
 }
 .skills .container-top .dev-skills-right .top div,
@@ -447,8 +446,8 @@ footer div p {
 }
 .skills .soft-skills,
 .skills .learning {
-  border: 2px solid rgba(255, 77, 0, 0.9450980392);
-  border-radius: 3.5rem;
+  border: 2px solid #11b7af;
+  border-radius: 0.5rem;
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
@@ -463,11 +462,11 @@ footer div p {
   align-items: center;
 }
 .skills .learning {
-  border: 2px solid yellowgreen;
+  border: 2px solid #11b7af;
 }
 .skills .learning h3 {
   font-size: 3rem;
-  color: rgba(255, 77, 0, 0.9450980392);
+  color: #11b7af;
 }
 
 @media screen and (max-width: 760px) {
@@ -504,7 +503,7 @@ body #work {
 }
 body h1,
 body h2 {
-  color: rgba(255, 77, 0, 0.9450980392);
+  color: #11b7af;
 }
 body .sub-title {
   text-align: center;

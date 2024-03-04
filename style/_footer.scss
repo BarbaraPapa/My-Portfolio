@@ -1,10 +1,11 @@
 footer{
   background-color: $primary-bg-dark;
-  padding: 1.5rem;
+  padding: 3rem;
+
   div{
-    
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     
     p{
       color: #f0f0f0ad;
@@ -13,8 +14,3 @@ footer{
   }
 }
 
-//------- Mobile ----------
-
-@media screen and (max-width: 760px) {
-  
-}

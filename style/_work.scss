@@ -1,18 +1,18 @@
 .work {
   background-color: $primary-bg-dark;
-  border-radius: 5rem;
+  border-radius: 1rem;
   max-width: 120rem;
   margin: 0 auto;
   padding: 5rem;
   margin-top: 20rem;
 
   div {
-    border-left: 2px solid greenyellow;
+    border-left: 2px solid $primary;
     margin-top: 5rem;
     padding-left: 2rem;
 
     h3 {
-      color: $secondary;
+      color: $primary;
       margin-bottom: 1rem;
     }
 
