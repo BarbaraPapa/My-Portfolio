@@ -17,14 +17,14 @@
 }
 .card-container .card h3 {
   font-size: 2.2rem;
-  color: #ff4d00;
+  color: rgba(255, 77, 0, 0.9450980392);
 }
 .card-container .card p {
   margin-top: 1rem;
   color: rgba(255, 255, 255, 0.7058823529);
 }
 .card-container .card span {
-  color: orange;
+  color: #11b7af;
 }
 .card-container .card-img {
   max-width: 300px;
@@ -53,7 +53,7 @@
   font-weight: bold;
 }
 .card-container .buttons-container button:hover {
-  background-color: #ff4d00;
+  background-color: rgba(255, 77, 0, 0.9450980392);
 }
 .card-container .buttons-container .github-button {
   display: flex;
@@ -113,7 +113,7 @@
   font-weight: bold;
 }
 .menu a:hover {
-  color: #ff4d00;
+  color: rgba(255, 77, 0, 0.9450980392);
 }
 
 .menu-button-container {
@@ -271,7 +271,7 @@ header .contacts button img {
   margin-right: 0.5rem;
 }
 header .contacts button:hover {
-  background-color: #ff4d00;
+  background-color: rgba(255, 77, 0, 0.9450980392);
 }
 
 @media screen and (max-width: 760px) {
@@ -281,6 +281,9 @@ header .contacts button:hover {
   }
   header section {
     margin-top: 2rem;
+  }
+  header img {
+    display: none;
   }
   .contacts {
     padding: 2.5rem;
@@ -357,6 +360,32 @@ footer div p {
   padding: 5rem;
   margin-top: 20rem;
 }
+.work div {
+  border-left: 2px solid greenyellow;
+  margin-top: 5rem;
+  padding-left: 2rem;
+}
+.work div h3 {
+  color: rgba(255, 77, 0, 0.9450980392);
+  margin-bottom: 1rem;
+}
+.work div h4 {
+  display: flex;
+  justify-content: space-between;
+}
+.work div p {
+  color: rgba(255, 255, 255, 0.7058823529);
+  margin-bottom: 1rem;
+}
+.work div .dot {
+  font-size: 0.8rem;
+}
+.work div span {
+  font-size: 1.2rem;
+}
+.work #education {
+  margin-top: 15rem;
+}
 
 .skills {
   max-width: 120rem;
@@ -365,6 +394,7 @@ footer div p {
   background-color: #021716;
   border-radius: 5rem;
   margin-top: 20rem;
+  margin-bottom: 20rem;
   padding: 5rem;
 }
 .skills span {
@@ -388,7 +418,7 @@ footer div p {
 }
 .skills .container-top .dev-skills-left .left,
 .skills .container-top .dev-skills-left .right {
-  border: 3px solid #ff4d00;
+  border: 3px solid rgba(255, 77, 0, 0.9450980392);
   border-radius: 4rem;
   padding: 2rem;
 }
@@ -405,7 +435,7 @@ footer div p {
 }
 .skills .container-top .dev-skills-right .top,
 .skills .container-top .dev-skills-right .bottom {
-  border: 3px solid #ff4d00;
+  border: 3px solid rgba(255, 77, 0, 0.9450980392);
   border-radius: 4rem;
   padding: 2rem;
 }
@@ -417,7 +447,7 @@ footer div p {
 }
 .skills .soft-skills,
 .skills .learning {
-  border: 2px solid #ff4d00;
+  border: 2px solid rgba(255, 77, 0, 0.9450980392);
   border-radius: 3.5rem;
   padding: 2rem;
   display: flex;
@@ -437,7 +467,7 @@ footer div p {
 }
 .skills .learning h3 {
   font-size: 3rem;
-  color: #ff4d00;
+  color: rgba(255, 77, 0, 0.9450980392);
 }
 
 @media screen and (max-width: 760px) {
@@ -466,9 +496,15 @@ body {
   font-size: 1.6rem;
   background: linear-gradient(to bottom right, #043c39 38%, #11b7af 38.05%, #043c39);
 }
+body #projects,
+body #about,
+body #skills,
+body #work {
+  scroll-margin-top: 15rem;
+}
 body h1,
 body h2 {
-  color: #ff4d00;
+  color: rgba(255, 77, 0, 0.9450980392);
 }
 body .sub-title {
   text-align: center;

@@ -1,8 +1,41 @@
-.work{
-    background-color: $primary-bg-dark;
-    border-radius: 5rem;
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: 5rem;
-    margin-top: 20rem;
+.work {
+  background-color: $primary-bg-dark;
+  border-radius: 5rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 5rem;
+  margin-top: 20rem;
+
+  div {
+    border-left: 2px solid greenyellow;
+    margin-top: 5rem;
+    padding-left: 2rem;
+
+    h3 {
+      color: $secondary;
+      margin-bottom: 1rem;
+    }
+
+    h4 {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    p {
+      color: rgba(255, 255, 255, 0.7058823529);
+      margin-bottom: 1rem;
+    }
+
+    .dot {
+      font-size: 0.8rem;
+    }
+
+    span {
+      font-size: 1.2rem;
+    }
+  }
+
+  #education{
+    margin-top: 15rem;
+  }
 }
