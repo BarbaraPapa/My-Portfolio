@@ -96,9 +96,14 @@
 // ---- Mobile ------
 
 @media screen and (max-width: 760px) {
-  .container-top {
+
+  .skills{
+    margin-top: 5rem;
+    .container-top {
     .dev-skills-left {
       justify-content: center;
     }
   }
+  }
+  
 }

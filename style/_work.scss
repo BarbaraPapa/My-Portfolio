@@ -24,10 +24,14 @@
     p {
       color: rgba(255, 255, 255, 0.7058823529);
       margin-bottom: 1rem;
+      max-width: 80ch;
+      display: flex; 
+      align-items: baseline;
     }
 
     .dot {
       font-size: 0.8rem;
+      margin-right: 0.8rem; 
     }
 
     span {
@@ -35,7 +39,17 @@
     }
   }
 
-  #education{
+  #education {
     margin-top: 15rem;
+  }
+}
+
+
+
+// ------ Mobile -------
+
+@media screen and (max-width: 760px) {
+  .work{
+    margin-top: 5rem;
   }
 }

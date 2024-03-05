@@ -7,7 +7,6 @@
   column-gap: 5rem;
 
   .border-card {
-    //border: 2px solid $secondary-dark;
     border-radius: 1rem;
     padding: 0.6rem;
     max-width: 60%;
@@ -27,17 +26,28 @@
       color: #ffffffb4;
     }
 
-    span{
+    span {
       color: $primary;
     }
   }
 
-  .card-img {
+  .img-anchor {
+    text-decoration: none;
     max-width: 300px;
-    object-fit: cover;
-    border-radius: 1rem;
-    //border: 2px solid $primary;
-    padding: 0.6rem;
+    display: block;
+    overflow: hidden;
+    transition: transform 0.4s ease-in-out;
+
+    &:hover {
+      transform: scale(1.03);
+    }
+    .card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 1rem;
+      padding: 0.6rem;
+    }
   }
 
   .buttons-container {
@@ -45,35 +55,42 @@
     flex-wrap: wrap;
     margin-top: 2.5rem;
 
-    button {
-      margin: 2rem auto;
-      padding: 0.8rem;
-      background-color: $primary;
-      border: none;
-      border-radius: 0.5rem;
-      width: 10rem;
-      a {
-        text-decoration: none;
-        color: black;
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 2rem;
+      font-weight: bold;
+      
+      button {
+        margin-right: 2rem;
+        padding: 0.8rem;
+        background-color: $primary;
+        border: none;
+        border-radius: 0.5rem;
+        width: 10rem;
         font-size: 1.5rem;
         font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+
+      .button-website{
+        padding: 1.1rem;
+      }
+
+      .button-code {
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
     }
+
     button:hover {
       background-color: $ligth;
     }
 
-    .github-button {
-      display: flex;
-      justify-content: center;
-      a {
-        display: flex;
-        align-items: center;
-      }
-      .icon-button {
-        margin-right: 5px;
-        width: 25px;
-      }
+    .icon-button {
+      margin-right: 5px;
+      width: 25px;
     }
   }
 }

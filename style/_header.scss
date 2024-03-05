@@ -14,7 +14,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    
+
     img {
       width: 350px;
       object-fit: cover;
@@ -47,7 +47,6 @@ header {
 
   .contacts {
     display: flex;
-    flex-wrap: wrap;
     margin-top: 8rem;
 
     a {
@@ -84,17 +83,19 @@ header {
 
 @media screen and (max-width: 760px) {
   header {
-    margin-top: 13rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     padding: 4rem 3rem;
     section {
       margin-top: 2rem;
     }
-    img{
+    img {
       display: none;
     }
-  }
-  .contacts {
-    padding: 2.5rem;
-    gap: 1rem;
+    .contacts {
+      margin-top: 2rem;
+      padding: 2.5rem;
+      gap: 1rem;
+    }
   }
 }
