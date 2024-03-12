@@ -422,75 +422,32 @@ footer div p {
 }
 .skills span {
   margin-left: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .skills img {
   margin-right: 0.5rem;
-  width: 40px;
+  width: 20px;
 }
-.skills .container-top {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 5rem;
-}
-.skills .container-top .dev-skills-left {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5rem;
-}
-.skills .container-top .dev-skills-left .left,
-.skills .container-top .dev-skills-left .right {
-  border: 3px solid #11b7af;
-  border-radius: 0.5rem;
-  padding: 2rem;
-}
-.skills .container-top .dev-skills-left .left div,
-.skills .container-top .dev-skills-left .right div {
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-}
-.skills .container-top .dev-skills-right {
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
-}
-.skills .container-top .dev-skills-right .top,
-.skills .container-top .dev-skills-right .bottom {
-  border: 3px solid #11b7af;
-  border-radius: 0.5rem;
-  padding: 2rem;
-}
-.skills .container-top .dev-skills-right .top div,
-.skills .container-top .dev-skills-right .bottom div {
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-}
-.skills .soft-skills,
-.skills .learning {
-  border: 2px solid #11b7af;
-  border-radius: 0.5rem;
-  padding: 2rem;
+.skills .skills-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 80%;
-  margin: 5rem auto;
 }
-.skills .soft-skills div,
-.skills .learning div {
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-}
-.skills .learning {
+.skills .skills-container section {
   border: 2px solid #11b7af;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.8rem;
 }
-.skills .learning h3 {
-  font-size: 3rem;
+.skills .skills-container section h3 {
   color: #11b7af;
+  margin-bottom: 0.5rem;
+}
+.skills .skills-container section div {
+  display: flex;
 }
 
 @media screen and (max-width: 760px) {

@@ -10,100 +10,48 @@
 
   span {
     margin-left: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   img {
     margin-right: 0.5rem;
-    width: 40px;
+    width: 20px;
   }
 
-  .container-top {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5rem;
-
-    // top left
-    .dev-skills-left {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5rem;
-
-      .left,
-      .right {
-        border: 3px solid $primary;
-        border-radius: 0.5rem;
-        padding: 2rem;
-
-        div {
-          padding: 1rem;
-          display: flex;
-          align-items: center;
-        }
-      }
-    }
-
-    // top right
-    .dev-skills-right {
-      display: flex;
-      flex-direction: column;
-      gap: 5rem;
-
-      .top,
-      .bottom {
-        border: 3px solid $primary;
-        border-radius: 0.5rem;
-        padding: 2rem;
-
-        div {
-          padding: 1rem;
-          display: flex;
-          align-items: center;
-        }
-      }
-    }
-  }
-
-  .soft-skills,
-  .learning {
-    border: 2px solid $primary;
-    border-radius: 0.5rem;
-    padding: 2rem;
+  .skills-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 80%;
-    margin: 5rem auto;
+  
+    section{
+      border: 2px solid $primary;
+      border-radius: 0.5rem;
+      padding: 1.5rem;
 
-    div {
-      padding: 1rem;
       display: flex;
-      align-items: center;
-    }
-  }
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 0.8rem;
 
-  .learning {
-    border: 2px solid $primary;
-    h3 {
-      font-size: 3rem;
-      color: $primary;
+      h3{
+        color: $primary;
+        margin-bottom: 0.5rem;
+      }
+      div {
+        display: flex;
+      }
     }
   }
 }
 
-
-
 // ---- Mobile ------
 
 @media screen and (max-width: 760px) {
-
-  .skills{
+  .skills {
     margin-top: 5rem;
     .container-top {
-    .dev-skills-left {
-      justify-content: center;
+      .dev-skills-left {
+        justify-content: center;
+      }
     }
   }
-  }
-  
 }
