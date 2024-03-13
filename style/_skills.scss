@@ -19,7 +19,6 @@
 
   .skills-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
   
     section{
@@ -46,12 +45,12 @@
 // ---- Mobile ------
 
 @media screen and (max-width: 760px) {
-  .skills {
+  .skills{
     margin-top: 5rem;
-    .container-top {
-      .dev-skills-left {
-        justify-content: center;
-      }
+    margin-bottom: 5rem;
+    .skills-container{
+      flex-direction: column;
+      gap: 0.5rem;
     }
   }
 }

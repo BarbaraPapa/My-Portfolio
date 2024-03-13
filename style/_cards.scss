@@ -17,3 +17,9 @@
   @extend %card-style;
 }
 
+
+@media screen and (max-width: 760px) {
+  .cards-container{
+    padding: 1rem;
+  }
+}

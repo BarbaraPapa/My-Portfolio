@@ -87,6 +87,10 @@
   .card-container .card {
     padding: 2rem;
   }
+  .card-container .img-anchor {
+    max-width: 100%;
+    padding: 0.5rem;
+  }
 }
 .logo {
   font-size: 3rem;
@@ -286,19 +290,47 @@ header .contacts button:hover {
 
 @media screen and (max-width: 760px) {
   header {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    padding: 4rem 3rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    padding: 0;
   }
-  header section {
-    margin-top: 2rem;
+  header .top-container main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .top-container main .header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  header .top-container main .header-title span {
+    font-size: 3.8rem;
+    display: block;
+  }
+  header .top-container main .header-title h1 {
+    display: block;
+    font-size: 6.8rem;
+  }
+  header .top-container main .header-title h2 {
+    display: block;
+    font-size: 2.1rem;
+    padding-top: 1rem;
+  }
+  header .top-container main .paragraph {
+    max-width: 30ch;
+  }
+  header .top-container main .paragraph p {
+    padding-top: 1rem;
   }
   header img {
     display: none;
   }
   header .contacts {
     margin-top: 2rem;
-    padding: 2.5rem;
+    padding: 0;
     gap: 1rem;
   }
 }
@@ -316,6 +348,11 @@ header .contacts button:hover {
   padding: 5rem;
 }
 
+@media screen and (max-width: 760px) {
+  .cards-container {
+    padding: 1rem;
+  }
+}
 footer {
   background-color: #021716;
   padding: 3rem;
@@ -362,7 +399,7 @@ footer div p {
     flex-direction: column;
   }
   .about main img {
-    width: 50%;
+    width: 90%;
     margin-bottom: 1rem;
   }
 }
@@ -430,7 +467,6 @@ footer div p {
 }
 .skills .skills-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 .skills .skills-container section {
@@ -453,9 +489,11 @@ footer div p {
 @media screen and (max-width: 760px) {
   .skills {
     margin-top: 5rem;
+    margin-bottom: 5rem;
   }
-  .skills .container-top .dev-skills-left {
-    justify-content: center;
+  .skills .skills-container {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }
 * {
