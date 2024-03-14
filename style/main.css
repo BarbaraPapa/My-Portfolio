@@ -242,13 +242,17 @@ header .top-container img {
   object-fit: cover;
   border-radius: 0.5rem;
 }
-header .top-container .header-title span {
+header .top-container main .header-title {
+  display: flex;
+  flex-direction: column;
+}
+header .top-container main .header-title span {
   font-size: 6rem;
 }
-header .top-container .header-title h1 {
+header .top-container main .header-title h1 {
   font-size: 8rem;
 }
-header .top-container .header-title h2 {
+header .top-container main .header-title h2 {
   font-size: 3rem;
   padding-top: 1rem;
 }
@@ -295,41 +299,22 @@ header .contacts button:hover {
     padding: 0;
   }
   header .top-container main {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  header .top-container main .header-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+    padding: 2rem;
   }
   header .top-container main .header-title span {
-    font-size: 3.8rem;
-    display: block;
+    font-size: 5rem;
   }
   header .top-container main .header-title h1 {
-    display: block;
-    font-size: 6.8rem;
+    font-size: 7rem;
   }
   header .top-container main .header-title h2 {
-    display: block;
-    font-size: 2.1rem;
-    padding-top: 1rem;
-  }
-  header .top-container main .paragraph {
-    max-width: 30ch;
-  }
-  header .top-container main .paragraph p {
-    padding-top: 1rem;
+    font-size: 2rem;
   }
   header img {
     display: none;
   }
   header .contacts {
-    margin-top: 2rem;
+    margin-top: 4rem;
     padding: 0;
     gap: 1rem;
   }

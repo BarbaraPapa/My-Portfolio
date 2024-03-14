@@ -21,18 +21,23 @@ header {
       border-radius: 0.5rem;
     }
 
-    .header-title {
-      span {
-        font-size: 6rem;
-      }
+    main {
+      .header-title {
+        display: flex;
+        flex-direction: column;
 
-      h1 {
-        font-size: 8rem;
-      }
+        span {
+          font-size: 6rem;
+        }
 
-      h2 {
-        font-size: 3rem;
-        padding-top: 1rem;
+        h1 {
+          font-size: 8rem;
+        }
+
+        h2 {
+          font-size: 3rem;
+          padding-top: 1rem;
+        }
       }
     }
 
@@ -89,37 +94,19 @@ header {
 
     .top-container {
       main {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        padding: 2rem;
 
         .header-title {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          width: 100%;
-
           span {
-            font-size: 3.8rem;
-            display: block;
+            font-size: 5rem;
           }
+
           h1 {
-            display: block;
-            font-size: 6.8rem;
+            font-size: 7rem;
           }
+
           h2 {
-            display: block;
-            font-size: 2.1rem;
-            padding-top: 1rem;
-          }
-        }
-
-        .paragraph {
-          max-width: 30ch;
-
-          p {
-            padding-top: 1rem;
+            font-size: 2rem;
           }
         }
       }
@@ -129,7 +116,7 @@ header {
       display: none;
     }
     .contacts {
-      margin-top: 2rem;
+      margin-top: 4rem;
       padding: 0;
       gap: 1rem;
     }
